@@ -109,7 +109,7 @@
   margin-bottom: 20px;
 }
 
-.alligned-text_right{
+.alligned-text_right {
   display: block;
   width: 100%;
   color: #FFF;
@@ -200,7 +200,7 @@
   list-style-type: none;
 }
 
-.card_type_film{
+.card_type_film {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
 }
