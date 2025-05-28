@@ -126,8 +126,6 @@ main {
   letter-spacing: 60px;
 }
 
-/* Убирает ненужный отступ в конце слова, создаваемый свойством letter-spacing всего элемента */
-
 .remove-spacing {
   letter-spacing: normal;
 }
@@ -187,8 +185,12 @@ main {
   list-style: none;
 }
 
-.lost__card-list-item {
-  height: 100%;
+.lots__card-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .card-link {
